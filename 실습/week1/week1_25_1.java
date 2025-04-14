@@ -21,12 +21,21 @@ public class week1_25_1 {
         System.out.print("학번을 입력하세요: "); //enter까지 치면, enter는 가겨가지 못함. 따라서 enter 남음
         studentId = scanner.nextInt();
 
-        // System.out.print("주소를 입력하세요: "); //enter까지 치면, enter는 가겨가지 못함. 따라서 enter 남음
+        // enter가 남아서, enter입력되고 끝난다.
 
-        //add = scanner.nextLine(); // enter가 남아서, enter입력되고 끝난다.
+        String pass = scanner.nextLine();
+
+        System.out.print("주소를 입력하세요: ");
+        String add = scanner.nextLine();
+
+        //enter까지 치면, enter는 가겨가지 못함. 따라서 enter 남음
+
+
 
         System.out.println("이름: " + name);
         System.out.println("학과: " + dept);
         System.out.println("학번: " + studentId);
+        System.out.println("주소: " + add);
+
     }
 }
