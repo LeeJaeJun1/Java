@@ -27,7 +27,6 @@ class Book {
     }
 }
 
-
 public class week6_25_1_1 {
     public static void main(String[] args) {
         Book a = new Book("황기태", "명품자바", "김하진");
